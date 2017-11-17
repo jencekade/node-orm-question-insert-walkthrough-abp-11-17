@@ -32,7 +32,9 @@ class Question{
 
 module.exports = Question;
 
- /*I know that db.run function takes in 3 parmeters
+
+
+ /*Question #1: I know that db.run function takes in 3 parmeters
  SQL, the new content which we defined with const self, and function
  but why does the function in the third parameter
  take in err and result as arguments?
@@ -41,6 +43,6 @@ module.exports = Question;
  the new updated table with the new results
  can be resolved back to here???*/
 
- /*I don't think this even runs because 
- there are any references to the npm sqlite packages
- that db.run needs.*/
+ /*Question #2: I don't think this even runs because
+ there aren't any references to the npm sqlite packages
+ that db.run and const sql needs.*/
