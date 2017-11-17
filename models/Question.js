@@ -40,3 +40,7 @@ module.exports = Question;
  It is wrapped in a Promise so that
  the new updated table with the new results
  can be resolved back to here???*/
+
+ /*I don't think this even runs because 
+ there are any references to the npm sqlite packages
+ that db.run needs.*/
