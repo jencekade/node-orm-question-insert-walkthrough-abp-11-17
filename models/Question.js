@@ -33,7 +33,10 @@ class Question{
 module.exports = Question;
 
  /*I know that db.run function takes in 3 parmeters
- SQL, the new content which we defined with const self, and function 
+ SQL, the new content which we defined with const self, and function
  but why does the function in the third parameter
  take in err and result as arguments?
- I dont even see a throw error.*/
+ I dont even see a throw error.
+ It is wrapped in a Promise so that 
+ the new updated table with the new results
+ can be resolved back to here???*/
