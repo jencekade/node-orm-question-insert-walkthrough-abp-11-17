@@ -37,6 +37,6 @@ module.exports = Question;
  but why does the function in the third parameter
  take in err and result as arguments?
  I dont even see a throw error.
- It is wrapped in a Promise so that 
+ It is wrapped in a Promise so that
  the new updated table with the new results
  can be resolved back to here???*/
